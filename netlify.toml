@@ -1,0 +1,7 @@
+[build]
+command = "pnpm install --no-frozen-lockfile && pnpm build"
+publish = "build" 
+
+[build.environment]
+NODE_VERSION = "20.x"
+PNPM_VERSION = "8.15.8"
